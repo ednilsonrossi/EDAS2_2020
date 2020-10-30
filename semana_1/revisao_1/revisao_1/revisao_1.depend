@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1604065033 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/revisao_1/revisao_1/minhas_funcoes.c
+	"minhas_funcoes.h"
+
+1604064111 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/revisao_1/revisao_1/minhas_funcoes.h
+
+1604064783 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/revisao_1/revisao_1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"minhas_funcoes.h"
+
