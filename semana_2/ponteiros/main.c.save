@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void funcao(int* ptr){
+    printf("valor de ptr: %p")
+    *ptr = 0;
+}
+
+int main()
+{
+    int x;
+    
+    x = 5;
+    funcao(&x);
+    printf("%d", x);
+    
+    
+    
+    return 0;
+}

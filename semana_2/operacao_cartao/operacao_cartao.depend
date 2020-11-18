@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1604520750 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_2/operacao_cartao/implementacao.c
+	<stdio.h>
+	<stdlib.h>
+	"implementacao.h"
+
+1604520736 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_2/operacao_cartao/implementacao.h
+

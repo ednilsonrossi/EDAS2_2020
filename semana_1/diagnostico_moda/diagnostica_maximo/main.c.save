@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcao.h"
+
+int main()
+{
+    int A[BOUNDS][BOUNDS] = {
+                            {1, 29, 3, 400},
+                            {52, 36, 79, 81},
+                            {9, 101, 119, 12},
+                            {13, 14, 15, 16}
+                            };
+
+    int n = 4;
+    int maior, linha, coluna;
+
+    printf("Elemento\tLinha\tColuna\n");
+    for(int i=0; i < n; i++){
+        for(int j=0; j<n; j++){
+            printf("%d, %d, %d", maior, linha, coluna);
+        }
+    }
+   
+
+    sou_o_maximo(4, A, &maior, &linha, &coluna);
+
+    printf("%d", maior);
+
+    return 0;
+}

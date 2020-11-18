@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1604421753 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/diagnostico_moda/diagnostica_maximo/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1604423095 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/diagnostico_moda/diagnostica_maximo/funcao.c
+	"funcao.h"
+
+1604422779 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_1/diagnostico_moda/diagnostica_maximo/funcao.h
+

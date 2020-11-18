@@ -1,0 +1,85 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define ALUNOS 2
+
+int main()
+{
+
+    struct Aluno{
+        char nome[40];
+        float n1, n2, n3, n4;
+        float media;
+    };
+
+
+    struct Aluno alunos[ALUNOS];
+    int index_menor;
+
+    float soma_n1, soma_n2, soma_n3, soma_n4;
+
+    for(int a=0; a < ALUNOS; a++){
+
+        __fpurge(stdin);
+        printf("Nome do aluno: ");
+        scanf("%40[^\n]", &alunos[a].nome); //variavel seguida do membro
+
+        printf("Nota 1: ");
+        scanf("%f", &alunos[a].n1);
+        printf("Nota 2: ");
+        scanf("%f", &alunos[a].n2);
+        printf("Nota 3: ");
+        scanf("%f", &alunos[a].n3);
+        printf("Nota 4: ");
+        scanf("%f", &alunos[a].n4);
+
+        alunos[a].media = (alunos[a].n1 + alunos[a].n2 + alunos[a].n3 + alunos[a].n4) / 4;
+    }
+
+    index_menor = 0;
+    for(int a=1; a < ALUNOS; a++){
+        if(alunos[a].media < alunos[index_menor].media){
+            index_menor = a;
+        }
+    }
+    printf("\n\nMenor media: %.2f - Aluno: %s\n\n", alunos[index_menor].media, alunos[index_menor].nome);
+
+
+    soma_n1 = 0;
+    soma_n2 = 0;
+    soma_n3 = 0;
+    soma_n4 = 0;
+    for(int index_alunos=0; index_alunos < ALUNOS; index_alunos++){
+        soma_n1 += alunos[index_alunos].n1;
+        soma_n2 += alunos[index_alunos].n2;
+        soma_n3 += alunos[index_alunos].n3;
+        soma_n4 += alunos[index_alunos].n4;
+    }
+    soma_n1 /= ALUNOS;
+    soma_n2 /= ALUNOS;
+    soma_n3 /= ALUNOS;
+    soma_n4 /= ALUNOS;
+
+    printf("Media de cada avaliaçao: \n");
+    printf("Avaliaço 1: %.2f\n", soma_n1);
+    printf("Avaliaço 2: %.2f\n", soma_n2);
+    printf("Avaliaço 3: %.2f\n", soma_n3);
+    printf("Avaliaço 4: %.2f\n", soma_n4);
+
+    
+    printf("\n\nAlunos aprovados\n");
+    for(int a=0; a < ALUNOS; a++){
+        if(alunos[a].media >= 6){
+            printf("%s\n", alunos[a]);
+        }
+    }
+
+    printf("\n\nAlunos reaprovados\n");
+    for(int a=0; a < ALUNOS; a++){
+        if(media[a] < 6){
+            printf("%s\n", alunos[a]);
+        }
+    }
+    
+    return 0;
+}

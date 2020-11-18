@@ -1,0 +1,8 @@
+#ifndef FUNCAO_H_INCLUDED
+#define FUNCAO_H_INCLUDED
+
+#define BOUNDS 
+
+void sou_o_maximo(int n, int A[][], int *k, int *Lin, int *Col);
+
+#endif // FUNCAO_H_INCLUDED

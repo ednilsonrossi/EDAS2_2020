@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1604680512 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_2/numeros_racionais/main.c
+	<stdio.h>
+	<stdlib.h>
+	"racional.h"
+
+1604680544 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_2/numeros_racionais/racional.h
+	<stdlib.h>
+	<stdio.h>
+
+1604680512 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_2/numeros_racionais/racional.c
+	"racional.h"
+
