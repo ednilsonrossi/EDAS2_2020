@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1493381754 source:/home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/pilha_estatica.c
+	"pilha_estatica.h"
+
+1493381691 /home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/pilha_estatica.h
+	<stdlib.h>
+
+1468004080 source:/home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_estatica.h"
+
+1493382247 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_estatica.h"
+
+1493381691 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/pilha_estatica.h
+	<stdlib.h>
+
+1493381754 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2017/1/EDAS2/Aula_5__Pilhas/Pilha_Estatica/pilha_estatica.c
+	"pilha_estatica.h"
+
