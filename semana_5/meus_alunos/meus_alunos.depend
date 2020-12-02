@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1606917997 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_5/meus_alunos/main.c
+	<stdio.h>
+	<stdlib.h>
+	"aluno.h"
+
+1606918069 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_5/meus_alunos/aluno.h
+	<stdlib.h>
+	<string.h>
+
+1606918107 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_5/meus_alunos/aluno.c
+	"aluno.h"
+
+1606920514 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_5/meus_alunos/lista_aluno.c
+	"lista_aluno.h"
+
+1606920486 /home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_5/meus_alunos/lista_aluno.h
+	"aluno.h"
+
