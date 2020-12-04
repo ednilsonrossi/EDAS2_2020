@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "lse.h"
+
+int main()
+{
+    Lista minha_lista;
+    
+    lista_iniciar(&minha_lista);
+    
+    return 0;
+}
