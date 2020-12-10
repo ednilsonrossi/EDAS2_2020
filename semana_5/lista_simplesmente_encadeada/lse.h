@@ -30,5 +30,47 @@ passado como argumento. O no sera inserido no inicio da lista.
 */
 Boolean lista_insere(Lista*, INFO);
 
+/**
+Operaço responsavel por inserir um no no na lista com o dado (info) passado como argumento.
+O novo no sera inserido no final da lista.
+*/
+Boolean lista_insereFinal(Lista*, INFO);
+
+
+/**
+Esta operacao recupera o no que esta na posicao informada como argumento,
+caso nao exista o elemento retorna-se NULL.
+*/
+Lista lista_recuperaPosicao(Lista, int);
+
+INFO extraiInfo(struct no*);
 
 #endif // LSE_H_INCLUDED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
