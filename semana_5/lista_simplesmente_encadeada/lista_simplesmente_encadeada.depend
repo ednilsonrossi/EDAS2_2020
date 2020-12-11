@@ -10,3 +10,14 @@
 	<stdlib.h>
 	"lse.h"
 
+1607523667 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_5/lista_simplesmente_encadeada/lse.c
+	"lse.h"
+
+1607523635 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_5/lista_simplesmente_encadeada/lse.h
+	<stdlib.h>
+
+1607523815 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_5/lista_simplesmente_encadeada/main.c
+	<stdio.h>
+	<stdlib.h>
+	"lse.h"
+

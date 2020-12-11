@@ -98,7 +98,54 @@ INFO extraiInfo(struct no* node){
 
 }
 
+void lista_liberaNode(struct no* node){
+    free(node);
+}
 
+Boolean lista_apagaPosicao(Lista* ptr_lista, int posicao){
+    Boolean deuCerto = FALSE;
+    struct no* caminhante;
+    struct no* anterior;
+    int contador;
+
+    if( posicao >= 0 && !lista_estaVazia(*ptr_lista) ){
+
+        if(posicao == 0){
+            /*
+                1a situacao:
+                Deseja-se apagar o primeiro node da lista.
+            */
+            caminhante = *ptr_lista;
+            *ptr_lista = caminhante->proximo;
+            lista_liberaNode(caminhante);
+            deuCerto = TRUE;
+        }else{
+            /*
+            2a situacao
+            Node esta no meio da lista ou eh o ultimo node
+            da lista.
+            */
+            anterior = NULL;
+            caminhante = *ptr_lista;
+            contador = 0;
+
+            while(contador < posicao && caminhante->proximo != NULL){
+                anterior = caminhante;
+                caminhante = caminhante->proximo;
+                contador += 1;
+            }
+
+            if(contador == posicao){
+                anterior->proximo = caminhante->proximo;
+                lista_liberaNode(caminhante);
+                deuCerto = TRUE;
+            }
+        }
+
+    }
+
+    return deuCerto;
+}
 
 
 

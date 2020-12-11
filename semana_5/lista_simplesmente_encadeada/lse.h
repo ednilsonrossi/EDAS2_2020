@@ -43,6 +43,10 @@ caso nao exista o elemento retorna-se NULL.
 */
 Lista lista_recuperaPosicao(Lista, int);
 
+Boolean lista_apagaPosicao(Lista*, int);
+
+void lista_liberaNode(struct no*);
+
 INFO extraiInfo(struct no*);
 
 #endif // LSE_H_INCLUDED

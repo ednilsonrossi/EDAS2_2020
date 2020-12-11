@@ -27,5 +27,22 @@ int main()
             printf("Vazio\n");
     }
 
+    while(!lista_estaVazia(minha_lista)){
+        meu_no = lista_recuperaPosicao(minha_lista, 0);
+        if(meu_no != NULL)
+            printf("Info do finado: %d\n", extraiInfo(meu_no));
+        else
+            printf("Vazio\n");
+        lista_apagaPosicao(&minha_lista, 0);
+    }
+
+    for(int i=0; i<10; i++){
+        meu_no = lista_recuperaPosicao(minha_lista, i);
+        if(meu_no != NULL)
+            printf("Info: %d\n", extraiInfo(meu_no));
+        else
+            printf("Vazio\n");
+    }
+
     return 0;
 }
