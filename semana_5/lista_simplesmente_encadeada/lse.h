@@ -2,12 +2,13 @@
 #define LSE_H_INCLUDED
 
 #include <stdlib.h>
+#include "aluno.h"
 
 #define TRUE 1
 #define FALSE 0
 typedef int Boolean;
 
-typedef int INFO;
+typedef Aluno INFO;
 
 typedef struct no* Lista;
 

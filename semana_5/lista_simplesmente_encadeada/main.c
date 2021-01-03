@@ -1,7 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lse.h"
+#include "aluno.h"
 
+int main(){
+
+    Lista alunos_lista;
+    struct no* rec;
+    Aluno estudante;
+
+    lista_iniciar(&alunos_lista);
+
+    estudante = criar_aluno(123, "Ednilson", "ednilson@ifsp");
+    lista_insereFinal(&alunos_lista, estudante);
+
+    estudante = criar_aluno(456, "Edson", "edson@ifsp");
+    lista_insereFinal(&alunos_lista, estudante);
+
+    estudante = criar_aluno(789, "Matheus", "matheus@ifsp");
+    lista_insereFinal(&alunos_lista, estudante);
+
+    for(int i=0; i<3; i++){
+        estudante = extraiInfo(lista_recuperaPosicao(alunos_lista, i));
+        if(estudante != NULL){
+            printf("%s \n", imprimir_aluno(estudante));
+        }
+    }
+
+    return 0;
+}
+
+/*
 int main()
 {
     Lista minha_lista;
@@ -46,3 +75,4 @@ int main()
 
     return 0;
 }
+*/
