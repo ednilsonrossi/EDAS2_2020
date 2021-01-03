@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1490365516 source:/home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_4__Listas/ListaSimplesmenteEncadeadaHeadAndTail/ListaSimplesmenteEncadeadaHeadAndTail.c
+	"ListaSimplesmenteEncadeadaHeadAndTail.h"
+	<stdio.h>
+
+1490360338 /home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_4__Listas/ListaSimplesmenteEncadeadaHeadAndTail/ListaSimplesmenteEncadeadaHeadAndTail.h
+	<stdlib.h>
+
+1490365675 source:/home/ednilson/Dropbox/IFSP-Compartilhados/01-Disciplinas/2017/1/EDAS2/Aula_4__Listas/ListaSimplesmenteEncadeadaHeadAndTail/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaSimplesmenteEncadeadaHeadAndTail.h"
+
+1490365683 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_7/ListaSimplesmenteEncadeadaHeadAndTail/ListaSimplesmenteEncadeadaHeadAndTail.c
+	"ListaSimplesmenteEncadeadaHeadAndTail.h"
+	<stdio.h>
+
+1490360338 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_7/ListaSimplesmenteEncadeadaHeadAndTail/ListaSimplesmenteEncadeadaHeadAndTail.h
+	<stdlib.h>
+
+1607806054 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_7/ListaSimplesmenteEncadeadaHeadAndTail/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaSimplesmenteEncadeadaHeadAndTail.h"
+
