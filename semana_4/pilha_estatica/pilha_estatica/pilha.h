@@ -18,4 +18,6 @@ int push(Pilha* pilha, int elemento);
 
 int pop(Pilha* pilha, int* elemento);
 
+void pilha_toEmpty(Pilha* pilha);
+
 #endif // PILHA_H_INCLUDED

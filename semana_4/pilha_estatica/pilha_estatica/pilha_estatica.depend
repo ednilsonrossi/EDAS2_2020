@@ -10,3 +10,11 @@
 1606314981 source:/home/ednilson/OneDrive/IFSP_COMPARTILHADO/01-Disciplinas/2020/2/EDAS2/repositorio_git/semana_4/pilha_estatica/pilha_estatica/pilha.c
 	"pilha.h"
 
+1609677958 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_4/pilha_estatica/pilha_estatica/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1609677803 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_4/pilha_estatica/pilha_estatica/pilha.h
+	<stdlib.h>
+

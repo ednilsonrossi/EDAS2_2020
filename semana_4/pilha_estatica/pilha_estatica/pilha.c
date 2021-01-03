@@ -57,3 +57,30 @@ int pop(Pilha* pilha, int* elemento){
 
     return deuCerto;
 }
+
+/*
+void pilha_toEmpty(Pilha* pilha){
+    int descarte;
+    if(*pilha != NULL){
+        while(!isEmpty(*pilha)){
+            pop(pilha, &descarte);
+        }
+    }
+}
+*/
+
+
+void pilha_toEmpty(Pilha* pilha){
+    (*pilha)->topo = -1;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -22,6 +22,15 @@ int main()
         printf("pilha vazia\n");
     }
 
+    pilha_toEmpty(&minhaPilha);
+
+    if(pop(&minhaPilha, &saida) == TRUE)
+        printf("-> %d\n", saida);
+    else{
+        printf("pilha vazia\n");
+    }
+
+    /*
     if(pop(&minhaPilha, &saida) == TRUE)
         printf("-> %d\n", saida);
     else{
@@ -47,6 +56,7 @@ int main()
     else{
         printf("pilha vazia\n");
     }
+    */
 
 
     return 0;
