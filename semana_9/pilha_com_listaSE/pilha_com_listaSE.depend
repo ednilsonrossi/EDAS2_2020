@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1607691931 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/pilha_com_listaSE/lse.c
+	"lse.h"
+
+1609609842 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/pilha_com_listaSE/lse.h
+	<stdlib.h>
+
+1609610620 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/pilha_com_listaSE/pilha.c
+	"pilha.h"
+	"lse.h"
+
+1609610022 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/pilha_com_listaSE/pilha.h
+	<stdlib.h>
+
+1609610695 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/pilha_com_listaSE/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
