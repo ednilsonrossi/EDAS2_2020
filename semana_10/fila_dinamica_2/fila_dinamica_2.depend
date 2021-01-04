@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1609788635 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"my_queue.h"
+
+1609786436 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica_2/my_queue.h
+	<stdlib.h>
+
+1609788618 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica_2/my_queue.c
+	"my_queue.h"
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1607691931 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica/lse.c
+	"lse.h"
+
+1609767553 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica/lse.h
+	<stdlib.h>
+
+1609767938 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica/main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1609766953 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica/fila.h
+	"lse.h"
+
+1609768137 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_10/fila_dinamica/fila.c
+	"fila.h"
+
