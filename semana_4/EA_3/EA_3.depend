@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1609764185 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_4/EA_3/pilha_estatica.c
+	"pilha_estatica.h"
+
+1609764190 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_4/EA_3/pilha_estatica.h
+	<stdlib.h>
+
+1609763859 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_4/EA_3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_estatica.h"
+
