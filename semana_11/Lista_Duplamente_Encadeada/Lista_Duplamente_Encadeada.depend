@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1610570534 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_11/Lista_Duplamente_Encadeada/LDE.c
+	"LDE.h"
+
+1610570890 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_11/Lista_Duplamente_Encadeada/LDE.h
+	<stdlib.h>
+	"node.h"
+
+1610570890 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_11/Lista_Duplamente_Encadeada/node.h
+	<stdlib.h>
+
+1610570590 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_11/Lista_Duplamente_Encadeada/node.c
+	"node.h"
+
+1610570912 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_11/Lista_Duplamente_Encadeada/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LDE.h"
+
