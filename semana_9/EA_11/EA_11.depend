@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1611160100 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/EA_11/main.c
+	<stdio.h>
+	<stdlib.h>
+	"carro.h"
+	"pilha.h"
+
+1611161545 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/EA_11/carro.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+
+1611159377 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/EA_11/carro.c
+	<stdlib.h>
+	<string.h>
+	"carro.h"
+
+1611158447 source:/home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/EA_11/pilha_com_lista.c
+	<stdlib.h>
+	"pilha.h"
+
+1611158177 /home/ednilson/workspace_disciplinas/2020_EDAS2/semana_9/EA_11/pilha.h
+	"carro.h"
+
